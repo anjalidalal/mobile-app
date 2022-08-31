@@ -13,8 +13,8 @@ const PageOne = () => {
     <>
       <Header />
       <div className="google">
-        <img src={google} width="25px" height="25px" />
-        <img src={mic} width="28px" height="28px" />
+        <img src={google} width="29px" height="29px" />
+        <img src={mic} width="30px" height="30px" />
       </div>
       <div className="frontpage-apps">
         <div className="icons">
