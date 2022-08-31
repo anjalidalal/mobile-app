@@ -33,7 +33,9 @@ const PageOne = () => {
           <img src={mail} />
         </div>
         <div className="icons">
-          <img src={youtube} />
+          <a href="https://www.youtube.com/" target="_self">
+            <img src={youtube} />
+          </a>
         </div>
         <div className="icons">
           <img src={github} />
