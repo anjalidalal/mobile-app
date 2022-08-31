@@ -1,8 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Mulish:wght@400;700&family=Nunito+Sans:wght@200;300;400;600;800&family=Poppins:wght@100;200;300;400;500;600;700&family=Raleway:wght@300;400;700&family=Roboto:wght@100;300;400;500;700&family=Splash&display=swap");
+
 @media only screen and (max-device-width: 480px) {
   * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
   }
   body {
     background-color: rgb(20, 21, 21);
@@ -34,6 +37,31 @@
     background-color: #f2f2f2;
     border-radius: 18px;
     height: 50px;
+  }
+  .time-weather {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 18%;
+    left: 0%;
+    right: 0%;
+    padding: 0px 15px;
+    margin: 10px 20px;
+    color: #f2f2f2;
+  }
+  h3 {
+    font-weight: 300;
+    font-size: 29px;
+  }
+  p {
+    font-weight: 300;
+    font-size: 14px;
+  }
+  .weather {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
   }
   button {
     background-color: transparent;
