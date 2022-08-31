@@ -9,9 +9,9 @@ import weather from "./images/weather.png";
 import Header from "./Header";
 import Footer from "./Footer";
 
-const PageThree = () => {
+const PageFour = () => {
   return (
-    <div className="page-three">
+    <div className="page-four">
       <Header />
       <div className="google">
         <img src={google} width="29px" height="29px" />
@@ -47,4 +47,4 @@ const PageThree = () => {
   );
 };
 
-export default PageThree;
+export default PageFour;

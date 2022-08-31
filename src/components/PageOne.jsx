@@ -11,7 +11,7 @@ import Header from "./Header";
 
 const PageOne = () => {
   return (
-    <>
+    <div className="page-one">
       <Header />
       <div className="google">
         <img src={google} width="29px" height="29px" />
@@ -33,9 +33,7 @@ const PageOne = () => {
           <img src={mail} />
         </div>
         <div className="icons">
-          <a href="https://www.youtube.com/" target="_self">
-            <img src={youtube} />
-          </a>
+          <img src={youtube} />
         </div>
         <div className="icons">
           <img src={github} />
@@ -45,7 +43,7 @@ const PageOne = () => {
         </div>
       </div>
       <Footer />
-    </>
+    </div>
   );
 };
 
