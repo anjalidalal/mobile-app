@@ -7,13 +7,13 @@ const Footer = () => {
   return (
     <div className="footer">
       <button>
-        <img src={square} />
+        <img src={square} width="20px" height="20px" />
       </button>
       <button>
-        <img src={circle} />
+        <img src={circle} width="20px" height="20px" />
       </button>
       <button>
-        <img src={back} />
+        <img src={back} width="28px" height="28px" />
       </button>
     </div>
   );
