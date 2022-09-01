@@ -1,104 +1,117 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Mulish:wght@400;700&family=Nunito+Sans:wght@200;300;400;600;800&family=Poppins:wght@100;200;300;400;500;600;700&family=Raleway:wght@300;400;700&family=Roboto:wght@100;300;400;500;700&family=Splash&display=swap");
 
-@media only screen and (max-device-width: 480px) {
-  * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
-  }
-  body {
-    background-color: rgb(20, 21, 21);
-  }
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: rgb(20, 21, 21);
+}
+#root {
+  margin: auto;
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+.page-one {
+  background-color: rgb(20, 21, 21);
+  height: 100vh;
+  width: 100vw;
+  scroll-snap-align: start;
+}
+.page-two {
+  background-color: rgb(96, 231, 231);
+  height: 100vh;
+  width: 100vw;
+  scroll-snap-align: start;
+}
+.page-three {
+  background-color: rgb(189, 216, 31);
+  height: 100vh;
+  width: 100vw;
+  scroll-snap-align: start;
+}
+.page-four {
+  background-color: rgb(226, 127, 116);
+  height: 100vh;
+  width: 100vw;
+  scroll-snap-align: start;
+}
+.header {
+  margin: 0px 10px;
+  display: flex;
+  gap: 3px;
+  align-items: center;
+  justify-content: flex-end;
+}
+.google {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 15px;
+  margin: 10px 20px;
+  background-color: #f2f2f2;
+  border-radius: 18px;
+  height: 50px;
+  width: 280px;
+}
+.time-weather {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 15px;
+  margin: 10px 20px;
+  color: #f2f2f2;
+}
+h3 {
+  font-weight: 300;
+  font-size: 29px;
+}
+p {
+  font-weight: 300;
+  font-size: 14px;
+}
+.weather {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+button {
+  background-color: transparent;
+  border: none;
+}
+.footer {
+  margin: 10px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+.icons {
+  width: 50px;
+  height: 50px;
+  background-color: #f2f2f2;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icons > img {
+  width: 40px;
+  height: 40px;
+}
+.frontpage-apps {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px 20px;
+}
+
+@media (min-width: 768px) {
   #root {
+    max-width: 350px;
+    height: 100vh;
     margin: auto;
-    display: flex;
-    overflow: auto;
-    flex-flow: row nowrap;
-    scroll-snap-type: x mandatory;
-  }
-  .page-one {
-    background-color: rgb(20, 21, 21);
-    width: 100%;
-    height: 100%;
-  }
-  .page-two {
-    background-color: rgb(20, 21, 21);
-    width: 100%;
-  }
-  .page-three {
-    background-color: rgb(20, 21, 21);
-    width: 100%;
-  }
-  .page-four {
-    background-color: rgb(20, 21, 21);
-    width: 100%;
-  }
-  .header {
-    margin: 0px 10px;
-    display: flex;
-    gap: 3px;
-    align-items: center;
-    justify-content: flex-end;
-  }
-  .google {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 15px;
-    margin: 10px 20px;
-    background-color: #f2f2f2;
-    border-radius: 18px;
-    height: 50px;
-  }
-  .time-weather {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 15px;
-    margin: 10px 20px;
-    color: #f2f2f2;
-  }
-  h3 {
-    font-weight: 300;
-    font-size: 29px;
-  }
-  p {
-    font-weight: 300;
-    font-size: 14px;
-  }
-  .weather {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-  }
-  button {
-    background-color: transparent;
-    border: none;
-  }
-  .footer {
-    margin: 10px 20px;
-    display: flex;
-    justify-content: space-around;
-    align-items: baseline;
-  }
-  .icons {
-    width: 50px;
-    height: 50px;
-    background-color: #f2f2f2;
-    border-radius: 12px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .icons > img {
-    width: 40px;
-    height: 40px;
-  }
-  .frontpage-apps {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 10px 20px;
   }
 }
