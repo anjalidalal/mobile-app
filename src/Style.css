@@ -20,24 +20,28 @@ body {
   height: 100vh;
   width: 100vw;
   scroll-snap-align: start;
+  flex-shrink: 0;
 }
 .page-two {
   background-color: rgb(96, 231, 231);
   height: 100vh;
   width: 100vw;
   scroll-snap-align: start;
+  flex-shrink: 0;
 }
 .page-three {
   background-color: rgb(189, 216, 31);
   height: 100vh;
   width: 100vw;
   scroll-snap-align: start;
+  flex-shrink: 0;
 }
 .page-four {
   background-color: rgb(226, 127, 116);
   height: 100vh;
   width: 100vw;
   scroll-snap-align: start;
+  flex-shrink: 0;
 }
 .header {
   margin: 0px 10px;
@@ -45,13 +49,16 @@ body {
   gap: 3px;
   align-items: center;
   justify-content: flex-end;
+  position: fixed;
+  top: 0%;
+  right: 0%;
 }
 .google {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0px 15px;
-  margin: 10px 20px;
+  margin: 40px 20px 20px 20px;
   background-color: #f2f2f2;
   border-radius: 18px;
   height: 50px;
@@ -87,6 +94,10 @@ button {
   display: flex;
   justify-content: space-around;
   align-items: baseline;
+  position: fixed;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
 }
 .icons {
   width: 50px;
@@ -106,6 +117,10 @@ button {
   justify-content: space-around;
   align-items: center;
   margin: 10px 20px;
+  position: fixed;
+  bottom: 10%;
+  left: 0%;
+  right: 0%;
 }
 
 @media (min-width: 768px) {
