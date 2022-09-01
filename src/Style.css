@@ -10,7 +10,6 @@ body {
   background-color: rgb(20, 21, 21);
 }
 #root {
-  margin: auto;
   display: flex;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
