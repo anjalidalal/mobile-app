@@ -1,4 +1,16 @@
 import React, { useEffect } from "react";
+import googleplay from "./images/googleplay.png";
+import github from "./images/github.png";
+import drive from "./images/drive.png";
+import linkedin from "./images/linkedin.png";
+import googlemaps from "./images/googlemaps.png";
+import whatsapp from "./images/whatsapp.png";
+import phone from "./images/phone.png";
+import twitter from "./images/twitter.png";
+import facebook from "./images/facebook.png";
+import youtube from "./images/youtube.png";
+import chrome from "./images/chrome.png";
+import mail from "./images/mail.png";
 
 const Notification = () => {
   useEffect(() => {
@@ -57,7 +69,44 @@ const Notification = () => {
   return (
     <>
       <div className="top-nav"></div>
-      <div className="notifications-shade"></div>
+      <div className="notifications-shade">
+        <div className="icons">
+          <img src={googlemaps} width="29px" height="29px" />
+        </div>
+        <div className="icons">
+          <img src={googleplay} width="30px" height="30px" />
+        </div>
+        <div className="icons">
+          <img src={phone} />
+        </div>
+        <div className="icons">
+          <img src={drive} />
+        </div>
+        <div className="icons">
+          <img src={twitter} />
+        </div>
+        <div className="icons">
+          <img src={facebook} />
+        </div>
+        <div className="icons">
+          <img src={linkedin} />
+        </div>
+        <div className="icons">
+          <img src={github} />
+        </div>
+        <div className="icons">
+          <img src={whatsapp} />
+        </div>
+        <div className="icons">
+          <img src={mail} />
+        </div>
+        <div className="icons">
+          <img src={youtube} />
+        </div>
+        <div className="icons">
+          <img src={chrome} />
+        </div>
+      </div>
     </>
   );
 };
