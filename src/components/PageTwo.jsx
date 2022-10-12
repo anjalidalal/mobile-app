@@ -9,12 +9,14 @@ import phone from "./images/phone.png";
 import twitter from "./images/twitter.png";
 import Header from "./Header";
 import Footer from "./Footer";
+import Notification from "./Notification";
 
 const PageTwo = () => {
   return (
     <div className="page-two">
+      {/* <Notification /> */}
       <Header />
-      <div className="icons">
+      {/* <div className="icons">
         <img src={googlemaps} width="29px" height="29px" />
       </div>
       <div className="icons">
@@ -37,7 +39,7 @@ const PageTwo = () => {
       </div>
       <div className="icons">
         <img src={whatsapp} />
-      </div>
+      </div> */}
       <Footer />
     </div>
   );
