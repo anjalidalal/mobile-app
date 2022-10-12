@@ -8,10 +8,12 @@ import mic from "./images/mic.png";
 import weather from "./images/weather.png";
 import Footer from "./Footer";
 import Header from "./Header";
+import Notification from "./Notification";
 
 const PageOne = () => {
   return (
     <div className="page-one">
+      <Notification />
       <Header />
       <div className="google">
         <img src={google} width="29px" height="29px" />
