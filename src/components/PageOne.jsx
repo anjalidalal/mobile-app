@@ -6,7 +6,7 @@ import Notification from "./Notification";
 const PageOne = () => {
   return (
     <div className="page-one">
-      {/* <Notification /> */}
+      <Notification />
       <Header />
       <Footer />
     </div>

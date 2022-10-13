@@ -1,13 +1,12 @@
 import React from "react";
 import Header from "./Header";
-import Footer from "./Footer";
+import Notification from "./Notification";
 
 const PageFour = () => {
   return (
     <div className="page-four">
-      {/* <Notification /> */}
+      <Notification />
       <Header />
-      <Footer />
     </div>
   );
 };

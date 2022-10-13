@@ -11,6 +11,10 @@ import facebook from "./images/facebook.png";
 import youtube from "./images/youtube.png";
 import chrome from "./images/chrome.png";
 import mail from "./images/mail.png";
+import bluetooth from "./images/bluetooth.png";
+import signal from "./images/signal.png";
+import wifi from "./images/wifi.png";
+import battery from "./images/battery.png";
 
 const Notification = () => {
   useEffect(() => {
@@ -68,7 +72,12 @@ const Notification = () => {
   });
   return (
     <>
-      <div className="top-nav"></div>
+      <div className="top-nav header">
+        <img src={bluetooth} width="16px" height="16px" />
+        <img src={signal} width="18px" height="18px" />
+        <img src={wifi} width="18px" height="18px" />
+        <img src={battery} width="20px" height="20px" />
+      </div>
       <div className="notifications-shade">
         <div className="icons">
           <img src={googlemaps} width="29px" height="29px" />
