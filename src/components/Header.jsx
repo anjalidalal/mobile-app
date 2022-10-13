@@ -3,17 +3,35 @@ import bluetooth from "./images/bluetooth.png";
 import signal from "./images/signal.png";
 import wifi from "./images/wifi.png";
 import battery from "./images/battery.png";
+import google from "./images/google.png";
+import mic from "./images/mic.png";
+import weather from "./images/weather.png";
 
 const Header = () => {
-  useEffect(() => {
-    
-  })
+  useEffect(() => {});
   return (
-    <div className="header">
-      <img src={bluetooth} width="16px" height="16px" />
-      <img src={signal} width="18px" height="18px" />
-      <img src={wifi} width="18px" height="18px" />
-      <img src={battery} width="20px" height="20px" />
+    <div className="header-section">
+      <div className="header">
+        <img src={bluetooth} width="16px" height="16px" />
+        <img src={signal} width="18px" height="18px" />
+        <img src={wifi} width="18px" height="18px" />
+        <img src={battery} width="20px" height="20px" />
+      </div>
+      <div className="google">
+        <img src={google} width="29px" height="29px" />
+        <img src={mic} width="30px" height="30px" />
+      </div>
+      <div className="time-weather">
+        <div className="time">
+          <h3>9:37</h3>
+          <p>Fri, Sep 2</p>
+        </div>
+        <div className="weather">
+          <img src={weather} />
+          <p>Cloudy 32°C</p>
+          <p>AQI 88</p>
+        </div>
+      </div>
     </div>
   );
 };
