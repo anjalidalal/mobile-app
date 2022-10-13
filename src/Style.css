@@ -16,7 +16,7 @@ body {
   margin: auto;
 }
 #root {
-  width: 320px;
+  width: 340px;
   margin: auto;
   height: 100vh;
   display: flex;
@@ -36,7 +36,7 @@ body {
 }
 
 .notifications-shade {
-  width: 320px;
+  width: 340px;
   height: 200px;
   background-color: #f2f2f2;
   transform: translateY(-232px);
