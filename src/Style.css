@@ -53,12 +53,14 @@ body {
 .page-three,
 .page-four {
   height: 100vh;
+  max-width: 375px;
   scroll-snap-align: start;
   flex-shrink: 0;
 }
 .page-one {
   background-color: rgb(20, 21, 21);
-  min-height: 100vh;
+  height: 100vh;
+  max-width: 375px;
   scroll-snap-align: start;
   flex-shrink: 0;
 }
